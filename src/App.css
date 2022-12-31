@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.allStudents {
+    list-style-type: none;  
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+}
+
+.student {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+li {
+    padding: 5px;
+}
+
+.link {
+    font-weight: bold;
+    color: green;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .link:hover {
+    background-color: blue;
+  }
+
+  h2 {
+    text-decoration: underline;
+  }
+
+  .header,
+  .subHeader {
+    display: flex;
+    justify-content: center;
+  }
+
+  .subHeader {
+    margin-bottom: 30px;
+  }

@@ -1,0 +1,22 @@
+.labels {
+    margin: 5px;
+    color: green;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+label:hover {
+    background-color: blue;
+}
+
+label {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
